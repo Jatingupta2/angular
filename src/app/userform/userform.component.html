@@ -147,11 +147,6 @@
               >
                 Confirm Password is required
               </small>
-              <small
-                class="text-danger"
-                *ngIf="getcontrol('confirmpassword')?.errors?.['maxlength'] || getcontrol('confirmpassword')?.errors?.['minlength']"
-                >Password shoud contain minimum 8 and maximum 32 words
-              </small>
             </div>
             <div
               *ngIf="signup.errors?.['passwordmissmatcherror'] && getcontrol('confirmpassword')?.touched "
