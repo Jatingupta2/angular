@@ -20,9 +20,11 @@ getcontrol(name:any):AbstractControl | null{
 }
   
 signupfn(){
-  console.log(this.signup.value)
-this.signup.reset()
+  if (this.signup.valid) {
+    console.log(this.signup.value);
+    this.signup.reset();
 }
 }
 
 
+}
