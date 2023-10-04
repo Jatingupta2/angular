@@ -21,6 +21,7 @@ getcontrol(name:any):AbstractControl | null{
   
 signupfn(){
   console.log(this.signup.value)
+this.signup.reset()
 }
 }
 
