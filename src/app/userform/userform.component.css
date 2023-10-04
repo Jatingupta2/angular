@@ -1,0 +1,39 @@
+.container{
+   margin-top: 50px;
+   margin-left: auto;
+}
+.input-text {
+   position: relative;
+   top:11px; 
+   left:20px;
+   background-color: white;
+ }
+.input-with-text{
+   position: relative;
+}
+.icon{
+   position: absolute;
+   top: calc(50%);
+   right:20px;
+}
+.btn{
+   width: 100%;
+}
+.formimage{
+
+  display: flex;
+
+}
+.img-fluid{
+height: 100%;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+}
+.form{
+padding:40px;  
+}
+.error{
+   border: 1px solid red;
+}
